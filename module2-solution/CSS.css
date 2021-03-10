@@ -1,0 +1,58 @@
+body{
+	background-color: coral;
+	font-family: verdana;
+}
+
+div{
+	margin-top: 15%;
+}
+
+section{
+	float: left;
+	width: 30%;
+	margin: 10px;
+	vertical-align: center;
+	background-color: darksalmon;
+	padding: 10px;
+	border: 1px solid orange;
+}
+
+section h3{
+	text-align: right;
+	color: Maroon;
+}
+
+@media screen and (max-width: 991px){
+	div{
+		margin-top: 5%;
+	}
+	.firsttwosection{
+		float: left;
+		width: 45%;
+	}
+	.section3{
+		width: 100%;
+	}
+	section h3{
+	text-align: center;
+	}
+}
+
+@media screen and (max-width: 767px){
+	div{
+		margin-top: 5%;
+	}
+	.firsttwosection{
+		float: left;
+		margin: 10px;
+		width: 100%;
+	}
+	.section3{
+		float: left;
+		margin: 10px;
+		width: 100%;
+	}
+	section h3{
+	text-align: center;
+	}
+}
